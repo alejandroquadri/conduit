@@ -9,5 +9,7 @@ authModule.config(AuthConfig);
 
 
 // Controllers
+import AuthCtrl from './auth.controller';
+authModule.controller('AuthCtrl',AuthCtrl);
 
 export default authModule;
